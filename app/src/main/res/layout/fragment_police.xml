@@ -5,75 +5,90 @@
 
     <!--Red Layout-->
     <LinearLayout
-        android:background="#82d10597"
-        android:padding="20dp"
-        android:layout_centerInParent="true"
-        android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#82d10597"
+        android:orientation="vertical"
+        android:padding="20dp">
 
         <!--Blue Layout-->
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <!--Green Layout-->
             <RelativeLayout
-                android:layout_margin="@dimen/margin"
                 android:layout_width="@dimen/icon"
-                android:layout_height="@dimen/icon">
+                android:layout_height="@dimen/icon"
+                android:layout_margin="@dimen/margin">
 
                 <!--station1-->
                 <ImageView
-                    android:src="@drawable/station1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:src="@drawable/station1" />
 
                 <!--Title-->
-            <TextView
-                android:padding="5dp"
-                android:gravity="center_horizontal"
-                android:textColor="#ffffff"
-                android:background="#82000000"
-                android:textStyle="bold"
-                android:textSize="18sp"
-                android:text="Station1"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#82000000"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="Station1"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
             </RelativeLayout>
-
 
 
             <!--Green Layout-->
             <RelativeLayout
-                android:layout_margin="@dimen/margin"
                 android:layout_width="@dimen/icon"
-                android:layout_height="@dimen/icon">
+                android:layout_height="@dimen/icon"
+                android:layout_margin="@dimen/margin">
 
                 <!--station2-->
                 <ImageView
-                    android:src="@drawable/station2"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-            </RelativeLayout>
+                    android:layout_height="match_parent"
+                    android:src="@drawable/station2" />
 
+                <!--Title-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#82000000"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="Station1"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+
+            </RelativeLayout>
 
 
         </LinearLayout>
 
         <!--Blue Layout-->
         <LinearLayout
-            android:orientation="horizontal"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
             <!--Green Layout-->
             <RelativeLayout
-                android:layout_margin="@dimen/margin"
                 android:layout_width="@dimen/icon"
-                android:layout_height="@dimen/icon">
+                android:layout_height="@dimen/icon"
+                android:layout_margin="@dimen/margin">
 
                 <!--station3-->
                 <ImageView
@@ -83,21 +98,47 @@
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/station3" />
-            </RelativeLayout>
+                <!--Title-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#82000000"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="Station1"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
+            </RelativeLayout>
 
 
             <!--Green Layout-->
             <RelativeLayout
-                android:layout_margin="@dimen/margin"
                 android:layout_width="@dimen/icon"
-                android:layout_height="@dimen/icon">
+                android:layout_height="@dimen/icon"
+                android:layout_margin="@dimen/margin">
 
                 <!--station4-->
                 <ImageView
-                    android:src="@drawable/station4"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
+                    android:layout_height="match_parent"
+                    android:src="@drawable/station4" />
+
+                <!--Title-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="#82000000"
+                    android:gravity="center_horizontal"
+                    android:padding="5dp"
+                    android:text="Station1"
+                    android:textColor="#ffffff"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
             </RelativeLayout>
 
 
