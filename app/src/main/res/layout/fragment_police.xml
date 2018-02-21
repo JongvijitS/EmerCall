@@ -76,6 +76,7 @@
 
                 <!--Title-->
                 <TextView
+                    android:clickable="true"
                     android:id="@+id/textViewStation2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -108,12 +109,15 @@
 
                 <!--station3-->
                 <ImageView
+                    android:id="@+id/imageViewStation3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_alignParentLeft="true"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:src="@drawable/station3" />
+
+
                 <!--Title-->
                 <TextView
                     android:id="@+id/textViewStation3"
@@ -139,6 +143,7 @@
 
                 <!--station4-->
                 <ImageView
+                    android:id="@id/textViewStation4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/station4" />
