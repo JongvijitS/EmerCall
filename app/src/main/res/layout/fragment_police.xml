@@ -143,9 +143,12 @@
 
                 <!--station4-->
                 <ImageView
-                    android:id="@id/textViewStation4"
+                    android:id="@+id/imageViewStation4"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentTop="true"
                     android:src="@drawable/station4" />
 
                 <!--Title-->

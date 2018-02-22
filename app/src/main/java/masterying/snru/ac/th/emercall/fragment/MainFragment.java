@@ -51,52 +51,71 @@ public class MainFragment extends Fragment{
 
 
         //        For Station 2
-        ImageView station2ImageView = getView().findViewWithTag(R.id.imageViewStation2);
-        station2ImageView.setOnClickListener(new View.OnClickListener() {
+        ImageView station2ImageView = getView().findViewById(R.id.imageViewStation2);
+        station1ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                Log.d(tag, "You Click Image Station1");
+                callStation("2222");
+
+            }
+        });
+
+        TextView station2TextView = getView().findViewById(R.id.textViewStation2);
+        station1ImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Log.d(tag, "Click Text " + getString(R.string.station1));
                 callStation("2222");
             }
         });
-        TextView station2TextView =getView().findViewById(R.id.textViewStation2);
-        station2ImageView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                callStation("2222");
-            }
-        });
+
 
         //        For Station 3
-        ImageView station3ImageView = getView().findViewWithTag(R.id.imageViewStation3);
-        station3ImageView.setOnClickListener(new View.OnClickListener() {
-
+        ImageView station3ImageView = getView().findViewById(R.id.imageViewStation3);
+        station1ImageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+
+                Log.d(tag, "You Click Image Station1");
+                callStation("3333");
+
+            }
+        });
+
+        TextView station3TextView = getView().findViewById(R.id.textViewStation3);
+        station1ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(tag, "Click Text " + getString(R.string.station1));
                 callStation("3333");
             }
         });
-        TextView station3TextView =getView().findViewById(R.id.textViewStation3);
-        station3TextView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                callStation("3333");
+
 
         //        For Station 4
+        ImageView station4ImageView = getView().findViewById(R.id.imageViewStation4);
+        station1ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
-                ImageView station4ImageView = getView().findViewWithTag(R.id.imageViewStation4);
-                station4ImageView.setOnClickListener(new View.OnClickListener() {
+                Log.d(tag, "You Click Image Station1");
+                callStation("4444");
 
-                    @Override
-                    public void onClick(View view) {
-                        callStation("4444");
-                    }
-                });
-                TextView station4TextView =getView().findViewById(R.id.textViewStation4);
-                station4TextView.setOnClickListener(new View.OnClickListener() {
-                    @Override
-                    public void onClick(View view) {
-                        callStation("4444");
+            }
+        });
+
+        TextView station4TextView = getView().findViewById(R.id.textViewStation4 );
+        station1ImageView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.d(tag, "Click Text " + getString(R.string.station1));
+                callStation("4444");
+            }
+        });
+
+
 
 
     } //Main Method
