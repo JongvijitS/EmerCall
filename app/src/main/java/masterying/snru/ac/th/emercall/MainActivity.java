@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import masterying.snru.ac.th.emercall.fragment.MainFragment;
 
 public class MainActivity extends AppCompatActivity {
+
 //    Explicit
     private DrawerLayout drawerLayout;
     private ActionBarDrawerToggle actionBarDrawerToggle;
